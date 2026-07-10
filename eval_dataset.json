@@ -1,0 +1,42 @@
+[
+  {
+    "task_id": "eval_1_factual",
+    "category_target": "Factual knowledge",
+    "prompt": "Explain the concept of quantum entanglement in simple terms and why Einstein called it 'spooky action at a distance'."
+  },
+  {
+    "task_id": "eval_2_math",
+    "category_target": "Mathematical reasoning",
+    "prompt": "If a retail store reduces item prices by 20% during a seasonal sale, and a loyalty card holder gets an additional 10% discount on the discounted price, what is the total percentage reduction from the original price? Show step-by-step arithmetic."
+  },
+  {
+    "task_id": "eval_3_sentiment",
+    "category_target": "Sentiment classification",
+    "prompt": "Classify the sentiment of the following customer review and justify your classification:\n'The battery life on this laptop is absolutely fantastic, easily lasting me two full workdays without needing a charge. The display is vibrant and sharp.'"
+  },
+  {
+    "task_id": "eval_4_summarisation",
+    "category_target": "Text summarisation",
+    "prompt": "Summarise the following passage in exactly one concise sentence:\n'Photosynthesis is the biological process used by plants, algae, and certain bacteria to harness energy from sunlight and convert it into chemical energy. During this process, water and carbon dioxide are absorbed and transformed into glucose, which fuels cellular activities, while oxygen is released as a vital byproduct into the atmosphere.'"
+  },
+  {
+    "task_id": "eval_5_ner",
+    "category_target": "Named entity recognition",
+    "prompt": "Extract and label all named entities (person, org, location, date) from the following sentence:\n'On October 15, 2025, Dr. Elena Rostova presented the advanced Epyc processor developed by AMD at the global developer summit held in Austin, Texas.'"
+  },
+  {
+    "task_id": "eval_6_debugging",
+    "category_target": "Code debugging",
+    "prompt": "Identify the potential bug in this Python code snippet when passed an empty list, and provide the corrected implementation:\n```python\ndef compute_average(numbers):\n    total = sum(numbers)\n    return total / len(numbers)\n```"
+  },
+  {
+    "task_id": "eval_7_logical",
+    "category_target": "Logical / deductive reasoning",
+    "prompt": "Solve this logic constraint puzzle:\nThree friends (Alex, Blake, and Casey) live in three different colored houses (Red, Blue, Green) arranged in a row from left to right.\n1. Blake lives directly to the right of the person in the Blue house.\n2. Casey lives in the Green house on the far right.\nWhich colored house does each person live in? Explain your deduction step-by-step."
+  },
+  {
+    "task_id": "eval_8_generation",
+    "category_target": "Code generation",
+    "prompt": "Write a clean, well-structured Python function `flatten_nested_list(nested)` that takes an arbitrarily nested list of integers and returns a single flat list containing all integers in order. Include type hints and a brief docstring."
+  }
+]
