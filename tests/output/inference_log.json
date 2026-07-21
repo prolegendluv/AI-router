@@ -1,0 +1,95 @@
+{
+  "total_fireworks_tokens": 643,
+  "tasks": [
+    {
+      "task_id": "T01",
+      "route": "local",
+      "category": "factual_knowledge",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 3.68,
+      "note": "conf=0.79,fmt=0.85"
+    },
+    {
+      "task_id": "T01b",
+      "route": "local",
+      "category": "factual_knowledge",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 4.08,
+      "note": "conf=0.75,fmt=0.85"
+    },
+    {
+      "task_id": "T01c",
+      "route": "local",
+      "category": "factual_knowledge",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 4.43,
+      "note": "conf=0.75,fmt=0.85"
+    },
+    {
+      "task_id": "T02",
+      "route": "fireworks",
+      "category": "mathematical_reasoning",
+      "model": "accounts/fireworks/models/kimi-k2p7-code",
+      "fireworks_tokens": 314,
+      "seconds": 1.96,
+      "note": "forced_category"
+    },
+    {
+      "task_id": "T02b",
+      "route": "fireworks",
+      "category": "mathematical_reasoning",
+      "model": "accounts/fireworks/models/kimi-k2p7-code",
+      "fireworks_tokens": 329,
+      "seconds": 2.56,
+      "note": "forced_category"
+    },
+    {
+      "task_id": "T03",
+      "route": "local",
+      "category": "sentiment_classification",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 4.59,
+      "note": "conf=0.82,fmt=1.00"
+    },
+    {
+      "task_id": "T03b",
+      "route": "local",
+      "category": "sentiment_classification",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 2.5,
+      "note": "conf=0.77,fmt=1.00"
+    },
+    {
+      "task_id": "T04",
+      "route": "local",
+      "category": "text_summarization",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 6.05,
+      "note": "conf=0.85,fmt=1.00"
+    },
+    {
+      "task_id": "T04b",
+      "route": "local",
+      "category": "text_summarization",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 3.54,
+      "note": "conf=0.81,fmt=1.00"
+    },
+    {
+      "task_id": "T05",
+      "route": "local",
+      "category": "named_entity_recognition",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 4.92,
+      "note": "conf=0.98,fmt=1.00"
+    }
+  ]
+}

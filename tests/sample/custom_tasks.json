@@ -1,0 +1,42 @@
+[
+  {
+    "task_id": "C01",
+    "prompt": "Explain the difference between nuclear fission and nuclear fusion, covering the specific physical mechanisms and energy yield."
+  },
+  {
+    "task_id": "C02",
+    "prompt": "Extract all named entities from the following text and label each as PERSON, ORGANIZATION, LOCATION, or DATE: 'On March 14, 2025, Lisa Su announced that AMD opened a new research center in Tokyo.'"
+  },
+  {
+    "task_id": "C03",
+    "prompt": "Summarize the key benefits and challenges of solar energy in no more than two bullet points. Solar energy reduces carbon emissions and provides renewable electricity globally. However, high initial installation costs and weather-dependent generation remain significant obstacles."
+  },
+  {
+    "task_id": "C04",
+    "prompt": "Classify the sentiment of this customer review into Positive, Negative, Neutral, or Mixed, and provide a Reason on the next line: 'The laptop screen is stunning and the processor is lightning fast, but the battery drains in barely two hours and the fan is terribly loud.'"
+  },
+  {
+    "task_id": "C05",
+    "prompt": "A store sells keyboards for $45 each and mice for $25 each. If a customer buys 6 keyboards and 8 mice, and receives a 15% discount on the entire purchase, what is the final total cost in dollars?"
+  },
+  {
+    "task_id": "C06",
+    "prompt": "Alice, Bob, and Charlie are sitting in a row of three seats numbered 1, 2, and 3 from left to right. Alice cannot sit in seat 1. Bob must sit directly next to Alice. Charlie sits in seat 3. Who sits in seat 1 and who sits in seat 2?"
+  },
+  {
+    "task_id": "C07",
+    "prompt": "Fix the bug in the following Python function that is supposed to check if a string is a palindrome, and state what the bug was on the last line:\n```python\ndef is_palindrome(s):\n    return s == s[::-2]\n```"
+  },
+  {
+    "task_id": "C08",
+    "prompt": "Implement a Python function `find_max_even(numbers)` that takes a list of integers and returns the largest even number in the list, or None if no even number exists. Output only the code meeting the spec."
+  },
+  {
+    "task_id": "C09",
+    "prompt": "What is the current stock price of AMD right now in July 2026?"
+  },
+  {
+    "task_id": "C10",
+    "prompt": "Describe how mRNA vaccines stimulate the immune system to produce antibodies against a viral pathogen."
+  }
+]

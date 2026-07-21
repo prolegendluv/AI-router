@@ -1,0 +1,77 @@
+{
+  "total_fireworks_tokens": 307,
+  "tasks": [
+    {
+      "task_id": "S01_empty",
+      "route": "local",
+      "category": "factual_knowledge",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 4.55,
+      "note": "conf=0.64,fmt=0.85"
+    },
+    {
+      "task_id": "S02_whitespace",
+      "route": "local",
+      "category": "factual_knowledge",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 5.87,
+      "note": "conf=0.61,fmt=0.85"
+    },
+    {
+      "task_id": "S03_alt_key",
+      "route": "fireworks",
+      "category": "mathematical_reasoning",
+      "model": "accounts/fireworks/models/kimi-k2p7-code",
+      "fireworks_tokens": 149,
+      "seconds": 1.38,
+      "note": "forced_category"
+    },
+    {
+      "task_id": "S04_unicode",
+      "route": "local",
+      "category": "named_entity_recognition",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 6.53,
+      "note": "conf=0.99,fmt=1.00"
+    },
+    {
+      "task_id": "S05_huge_prompt",
+      "route": "local",
+      "category": "text_summarization",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 10.86,
+      "note": "conf=0.79,fmt=1.00"
+    },
+    {
+      "task_id": "S06_code_debug_complex",
+      "route": "local",
+      "category": "code_debugging",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 5.8,
+      "note": "conf=0.99,fmt=0.90"
+    },
+    {
+      "task_id": "S07_math_negative",
+      "route": "fireworks",
+      "category": "mathematical_reasoning",
+      "model": "accounts/fireworks/models/kimi-k2p7-code",
+      "fireworks_tokens": 158,
+      "seconds": 2.02,
+      "note": "forced_category"
+    },
+    {
+      "task_id": "S08_ner_no_entities",
+      "route": "local",
+      "category": "named_entity_recognition",
+      "model": "local",
+      "fireworks_tokens": 0,
+      "seconds": 1.11,
+      "note": "conf=0.89,fmt=1.00"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "task_id": "S01_empty",
+    "prompt": ""
+  },
+  {
+    "task_id": "S02_whitespace",
+    "prompt": "   \n\t   "
+  },
+  {
+    "task_id": "S03_alt_key",
+    "id": "S03",
+    "input": "Calculate 15% of 80."
+  },
+  {
+    "task_id": "S04_unicode",
+    "prompt": "Extract entities: Sundar Pichai visited 東京 (Tokyo) and 北京 (Beijing) in May 2025."
+  },
+  {
+    "task_id": "S05_huge_prompt",
+    "prompt": "Summarize this long architectural design specification in exactly two bullet points: Distributed consensus algorithms like Raft and Paxos ensure data consistency across multiple replicated server nodes in cloud environments. When a leader node fails or experiences network partitions, follower nodes initiate leader elections using randomized election timeouts and heartbeat messages. State machines on all surviving nodes apply log entries sequentially once the majority quorum confirms replication. High throughput systems also implement read-write splitting, sharding across consistent hashing rings, and asynchronous snapshotting to prevent disk exhaustion. Despite these optimizations, cross-datacenter latency remains a fundamental physical bottleneck under CAP theorem tradeoffs."
+  },
+  {
+    "task_id": "S06_code_debug_complex",
+    "prompt": "Fix the bug in this Python snippet that computes Fibonacci numbers and state what the bug was on the last line:\n```python\ndef fib(n):\n    if n <= 1:\n        return n\n    return fib(n-1) * fib(n-2)\n```"
+  },
+  {
+    "task_id": "S07_math_negative",
+    "prompt": "What is -15 multiplied by -4, plus 12?"
+  },
+  {
+    "task_id": "S08_ner_no_entities",
+    "prompt": "Extract named entities from: The red car drove quickly down the long winding road."
+  }
+]

@@ -1,6 +1,4 @@
-requests>=2.31.0
-aiohttp>=3.9.0
-python-dotenv>=1.0.0
-scikit-learn>=1.3.0
-joblib>=1.3.0
-numpy>=1.24.0
+# No third-party Python dependencies.
+# Local inference is served by llama-server (built from source in the image);
+# both the local and Fireworks clients talk to their OpenAI-compatible HTTP
+# endpoints using only the Python standard library (urllib + json).
